@@ -1,0 +1,21 @@
+﻿Place_Id,Place_Name,City,Category,Latitude,Longitude,Temperature_C,Humidity_Percent,Precipitation_mm,Wind_Speed_kmh,Weather_Time,Timezone,API_Status
+11,Pulau Bidadari,Jakarta,Bahari,-6.035833,106.746944,27.4,81,0.1,10.1,2026-11-26T18:00,Asia/Jakarta,200
+12,Pulau Pari,Jakarta,Bahari,-5.9074328,106.5863989,28.1,84,0.1,12.3,2026-11-26T18:00,Asia/Jakarta,200
+13,Pulau Pramuka,Jakarta,Bahari,-5.745962,106.6136577,28.3,80,0.1,10.6,2026-11-26T18:00,Asia/Jakarta,200
+14,Pulau Pelangi,Jakarta,Bahari,-5.587055,106.5885,28.9,77,0.1,15.9,2026-11-26T18:00,Asia/Jakarta,200
+15,Pasar Seni,Jakarta,Pusat Perbelanjaan,-6.1766868,106.8417666,26.3,90,0.1,7.4,2026-11-26T18:00,Asia/Jakarta,200
+16,Jembatan Kota Intan,Jakarta,Budaya,-6.1314572,106.8106169,26.3,90,0.1,7.4,2026-11-26T18:00,Asia/Jakarta,200
+17,Museum Fatahillah,Jakarta,Budaya,-6.1364489,106.8130661,26.3,90,0.1,7.4,2026-11-26T18:00,Asia/Jakarta,200
+18,Museum Bank Indonesia,Jakarta,Budaya,-6.137127,106.813005,26.3,90,0.1,7.4,2026-11-26T18:00,Asia/Jakarta,200
+19,Kidzania,Jakarta,Taman Hiburan,-6.2250735,106.8097144,25.9,93,0.2,5.2,2026-11-26T18:00,Asia/Jakarta,200
+20,Museum Taman Prasasti,Jakarta,Budaya,-6.1722241,106.8189695,26.3,90,0.1,7.4,2026-11-26T18:00,Asia/Jakarta,200
+21,Museum Wayang,Jakarta,Budaya,-6.1349072,106.8124452,26.3,90,0.1,7.4,2026-11-26T18:00,Asia/Jakarta,200
+22,Masjid Istiqlal,Jakarta,Tempat Ibadah,-6.17017,106.83139,26.3,90,0.1,7.4,2026-11-26T18:00,Asia/Jakarta,200
+23,Gereja Katedral,Jakarta,Tempat Ibadah,-6.169225,106.833063,26.3,90,0.1,7.4,2026-11-26T18:00,Asia/Jakarta,200
+24,Museum Nasional,Jakarta,Budaya,-6.1764021,106.8215901,26.3,90,0.1,7.4,2026-11-26T18:00,Asia/Jakarta,200
+25,Pasar Tanah Abang,Jakarta,Pusat Perbelanjaan,-6.1890096,106.8119312,25.9,93,0.2,5.2,2026-11-26T18:00,Asia/Jakarta,200
+26,Pecinan Glodok,Jakarta,Pusat Perbelanjaan,-6.1427588,106.8140791,26.3,90,0.1,7.4,2026-11-26T18:00,Asia/Jakarta,200
+27,Sea World,Jakarta,Taman Hiburan,-6.1264775,106.842963,26.3,90,0.1,7.4,2026-11-26T18:00,Asia/Jakarta,200
+28,Wisata Agro Edukatif Istana Susu Cibugary,Jakarta,Taman Hiburan,-6.3568093,106.9062371,25.1,97,0.5,5.0,2026-11-26T18:00,Asia/Jakarta,200
+29,Wisata Kuliner Pecenongan,Jakarta,Pusat Perbelanjaan,-6.1667887,106.8265261,26.3,90,0.1,7.4,2026-11-26T18:00,Asia/Jakarta,200
+30,Taman Menteng,Jakarta,Taman Hiburan,-6.1964087,106.8293106,25.9,94,0.3,5.2,2026-11-26T18:00,Asia/Jakarta,200
