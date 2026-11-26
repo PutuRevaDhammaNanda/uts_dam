@@ -1,0 +1,10 @@
+﻿No,Aspek,Pertanyaan,Penilaian,Bukti_Catatan
+1,Legalitas sumber,Apakah dataset berasal dari sumber yang dapat diakses dan digunakan secara sah?,Perlu verifikasi,Dataset diunduh dari Kaggle; ketentuan penggunaan perlu diperiksa.
+2,Lisensi,Apakah lisensi dataset sudah diperiksa dan dicatat?,Perlu verifikasi,Lisensi belum dipastikan; perlu diperiksa pada halaman Kaggle.
+3,Consent,Apakah pengumpulan data memerlukan persetujuan subjek data?,Tidak relevan untuk data destinasi publik,"Dataset berisi informasi destinasi wisata, bukan data responden."
+4,Minimalisasi data,Apakah data yang dikumpulkan hanya sesuai kebutuhan tujuan proyek?,Terpenuhi,Data digunakan untuk identifikasi destinasi dan integrasi data pariwisata.
+5,PII dan privasi,"Apakah terdapat PII seperti nama pribadi, email, nomor telepon, atau identitas?",Tidak ditemukan indikasi PII,"Pemeriksaan nama kolom tidak menemukan kolom email, telepon, alamat pribadi, atau identitas individu. Place_Name berisi nama destinasi wisata, bukan nama orang. Pemeriksaan dilakukan berdasarkan nama kolom dan sampel data."
+6,Transparansi tujuan,Apakah tujuan pengumpulan dan penggunaan data dijelaskan?,Terpenuhi,Tujuan proyek dijelaskan pada notebook.
+7,Atribusi sumber,Apakah sumber data dan penerbit dicatat untuk atribusi?,Terpenuhi,Nama sumber dan URL dicatat pada provenance.
+8,Kepatuhan ketentuan sumber,Apakah ketentuan portal dan batas penggunaan sumber diperiksa?,Perlu verifikasi,Ketentuan penggunaan dataset Kaggle perlu diperiksa.
+9,Risiko bias dan kualitas,Apakah keterbatasan cakupan dan potensi bias dataset dicatat?,Terpenuhi,Dataset mencakup lima kota dan enam kategori destinasi.

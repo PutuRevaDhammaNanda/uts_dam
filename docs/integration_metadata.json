@@ -1,0 +1,54 @@
+{
+    "project": "Akuisisi dan Integrasi Data Pariwisata Indonesia",
+    "integration_time": "2026-11-26T13:56:45.612543+08:00",
+    "sources": [
+        {
+            "source": "Indonesia Tourism Destination Dataset",
+            "type": "CSV",
+            "join_key": "Place_Id"
+        },
+        {
+            "source": "Open-Meteo Weather API",
+            "type": "API JSON",
+            "join_key": "Place_Id",
+            "coverage_records": 30
+        },
+        {
+            "source": "Indonesian Cities Population",
+            "type": "HTML scraping",
+            "join_key": "City",
+            "matched_cities": [
+                "Jakarta",
+                "Surabaya",
+                "Bandung",
+                "Semarang",
+                "Yogyakarta"
+            ]
+        }
+    ],
+    "merge_methods": [
+        {
+            "left_source": "Dataset utama",
+            "right_source": "API cuaca",
+            "key": "Place_Id",
+            "how": "left",
+            "validate": "one_to_one"
+        },
+        {
+            "left_source": "Hasil merge dataset utama dan API",
+            "right_source": "Scraping populasi",
+            "key": "City",
+            "how": "left",
+            "validate": "many_to_one"
+        }
+    ],
+    "row_count_before_merge": 437,
+    "row_count_after_merge": 437,
+    "unique_place_id": 437,
+    "duplicate_rows": 0,
+    "weather_records_matched": 30,
+    "population_records_matched": 437,
+    "output_file": "data/processed/tourism_integrated.csv",
+    "output_file_size_bytes": 392781,
+    "output_md5": "4327eed3b12f7d4b5f82c28bc51b02e4"
+}

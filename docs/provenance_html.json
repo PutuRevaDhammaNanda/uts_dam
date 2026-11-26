@@ -1,0 +1,41 @@
+{
+    "source_name": "List of Indonesian Cities by Population",
+    "publisher": "Wikipedia contributors",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Indonesian_cities_by_population",
+    "acquisition_method": "HTTP GET Request menggunakan Python Requests",
+    "extraction_method": "Pandas read_html",
+    "table_index_extracted": 1,
+    "total_html_tables_found": 9,
+    "original_table_rows": 95,
+    "matched_cities": [
+        "Jakarta",
+        "Surabaya",
+        "Bandung",
+        "Semarang",
+        "Yogyakarta"
+    ],
+    "matched_city_count": 5,
+    "data_fields": [
+        "City",
+        "Province",
+        "Population_2020",
+        "Population_2010",
+        "Population_Change",
+        "Population_Estimate"
+    ],
+    "access_time": "2026-11-26T13:56:45.509166+08:00",
+    "collector_name": "Putu Reva Dhamma Nanda",
+    "collector_nim": "2501010167",
+    "user_agent": "UTS-DAM/1.0 (puturevadhammananda@gmail.com)",
+    "raw_file": {
+        "file_name": "city_population_raw.html",
+        "file_size_bytes": 287439,
+        "md5": "f4dfe2cc2eb4c32ad7b6a3dfbc6a1bbd"
+    },
+    "processed_file": {
+        "file_name": "city_population_scraped.csv",
+        "file_size_bytes": 388,
+        "md5": "69c1e04bd5de017ca26535b53911a1b7"
+    },
+    "processing_notes": "Halaman HTML disimpan sebagai data raw. Tabel populasi kota diekstrak menggunakan Pandas read_html. Lima kota yang terdapat pada dataset destinasi wisata dicocokkan dan dipilih untuk proses integrasi selanjutnya."
+}

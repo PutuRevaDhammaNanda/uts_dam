@@ -1,0 +1,34 @@
+{
+    "source_name": "Open-Meteo Weather API",
+    "publisher": "Open-Meteo",
+    "source_url": "https://api.open-meteo.com/v1/forecast",
+    "documentation_url": "https://open-meteo.com/en/docs",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "terms_url": "https://open-meteo.com/en/terms",
+    "acquisition_method": "HTTP GET Request menggunakan Python Requests",
+    "request_type": "Current Weather Forecast",
+    "number_of_locations": 30,
+    "variables": [
+        "temperature_2m",
+        "relative_humidity_2m",
+        "precipitation",
+        "wind_speed_10m"
+    ],
+    "access_time": "2026-11-26T13:56:45.133580+08:00",
+    "collector_name": "Putu Reva Dhamma Nanda",
+    "collector_nim": "2501010167",
+    "user_agent": "UTS-DAM/1.0 (puturevadhammananda@gmail.com)",
+    "raw_file": {
+        "file_name": "open_meteo_raw.json",
+        "file_size_bytes": 36888,
+        "md5": "cb663c04f5a7de3a43a54c8909d07d08"
+    },
+    "normalized_file": {
+        "file_name": "open_meteo_normalized.csv",
+        "file_size_bytes": 3532,
+        "md5": "0fca11cae7aa51152caaf28520d8e2e5"
+    },
+    "processing_notes": "Raw JSON disimpan tanpa perubahan. Data cuaca dinormalisasi menjadi tabel CSV dan dilengkapi identitas destinasi dari dataset utama untuk integrasi selanjutnya.",
+    "attribution": "Weather data by Open-Meteo.com"
+}

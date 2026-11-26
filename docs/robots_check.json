@@ -1,0 +1,9 @@
+{
+    "robots_url": "https://en.wikipedia.org/robots.txt",
+    "target_url": "https://en.wikipedia.org/wiki/List_of_Indonesian_cities_by_population",
+    "check_time": "2026-11-26T13:56:45.209372+08:00",
+    "user_agent": "UTS-DAM/1.0 (puturevadhammananda@gmail.com)",
+    "robots_status_code": 200,
+    "allowed": true,
+    "method": "urllib.robotparser"
+}
